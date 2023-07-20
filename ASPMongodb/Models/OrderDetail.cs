@@ -7,7 +7,7 @@ namespace ASPMongodb.Models
 {
     public class OrderDetail
     {
-        public int _id { get; set; }
+        public string _id { get; set; }
         public int OderDetailId { get; set; }
         public int ProductDetailId { get; set; }
         public int Quantity { get; set; }

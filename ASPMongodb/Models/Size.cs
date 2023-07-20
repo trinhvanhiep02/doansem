@@ -7,7 +7,7 @@ namespace ASPMongodb.Models
 {
     public class Size
     {
-        public int _id { get; set; }
+        public string _id { get; set; }
         public int SizeId { get; set; }
         public string SizeName { get; set; }
         public bool Status { get; set; }

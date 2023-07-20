@@ -7,7 +7,7 @@ namespace ASPMongodb.Models
 {
     public class Comment
     {
-        public int _id { get; set; }
+        public string _id { get; set; }
         public int CommentId { get; set; }
         public int AccountId { get; set; }
         public string Content { get; set; }

@@ -7,7 +7,7 @@ namespace ASPMongodb.Models
 {
     public class Color
     {
-        public int _id { get; set; }
+        public string _id { get; set; }
         public int ColorId { get; set; }
         public string ColorName { get; set; }
         public int Status { get; set; }

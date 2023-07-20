@@ -7,7 +7,7 @@ namespace ASPMongodb.Models
 {
     public class Category
     {
-        public int _id { get; set; }
+        public string _id { get; set; }
         public int CategoryId { get; set; }
         public string CategoryName { get; set; }
         public bool Status { get; set; }

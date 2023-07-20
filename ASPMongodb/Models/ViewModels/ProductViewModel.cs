@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ASPMongodb.Models
+namespace ASPMongodb.Models.ViewModels
 {
-    public class Product
+    public class ProductViewModel
     {
         public string _id { get; set; }
-        public int ProductId { get; set; }
         public string ProductName { get; set; }
-        public string CategoryId { get; set; }
+        public string CategoryName { get; set; }
         public string Images { get; set; }
         public int Quantity { get; set; }
         public int Price { get; set; }

@@ -7,7 +7,7 @@ namespace ASPMongodb.Models
 {
     public class Account
     {
-        public int _id { get; set; }
+        public string _id { get; set; }
         public int AccountId { get; set; }
         public string AccountName { get; set; }
         public string Gmail { get; set; }

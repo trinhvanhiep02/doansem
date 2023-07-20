@@ -7,7 +7,7 @@ namespace ASPMongodb.Models
 {
     public class ProductDetail
     {
-        public int _id { get; set; }
+        public string _id { get; set; }
         public int ProductDetailId { get; set; }
         public int ColorId { get; set; }
         public int SizeId { get; set; }

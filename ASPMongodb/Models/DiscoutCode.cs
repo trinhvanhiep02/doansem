@@ -7,7 +7,7 @@ namespace ASPMongodb.Models
 {
     public class DiscoutCode
     {
-        public int _id { get; set; }
+        public string _id { get; set; }
         public int CodeId { get; set; }
         public string CodeName { get; set; }
         public int Price { get; set; }

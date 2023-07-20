@@ -12960,6 +12960,7 @@
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.9",
+      "MongoDB.Bson >= 2.20.0",
       "MongoDB.Driver >= 2.20.0"
     ]
   },
@@ -12970,11 +12971,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ONG TRUM HACKER\\Desktop\\Project\\ASPMongodb\\ASPMongodb.csproj",
+      "projectUniqueName": "C:\\Users\\ONG TRUM HACKER\\Desktop\\Project\\doansem\\ASPMongodb\\ASPMongodb.csproj",
       "projectName": "ASPMongodb",
-      "projectPath": "C:\\Users\\ONG TRUM HACKER\\Desktop\\Project\\ASPMongodb\\ASPMongodb.csproj",
+      "projectPath": "C:\\Users\\ONG TRUM HACKER\\Desktop\\Project\\doansem\\ASPMongodb\\ASPMongodb.csproj",
       "packagesPath": "C:\\Users\\ONG TRUM HACKER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ONG TRUM HACKER\\Desktop\\Project\\ASPMongodb\\obj\\",
+      "outputPath": "C:\\Users\\ONG TRUM HACKER\\Desktop\\Project\\doansem\\ASPMongodb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13023,6 +13024,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[2.1.9, )"
+          },
+          "MongoDB.Bson": {
+            "target": "Package",
+            "version": "[2.20.0, )"
           },
           "MongoDB.Driver": {
             "target": "Package",

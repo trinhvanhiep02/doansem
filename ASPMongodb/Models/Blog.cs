@@ -7,7 +7,7 @@ namespace ASPMongodb.Models
 {
     public class Blog
     {
-        public int _id { get; set; }
+        public string _id { get; set; }
         public int BlogId { get; set; }
         public string Content { get; set; }
         public string images { get; set; }
